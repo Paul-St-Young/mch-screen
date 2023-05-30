@@ -1,0 +1,95 @@
+\documentclass[aps,prb,showpacs,preprintnumbers,amsmath,amssymb,superscriptaddress,twocolumn]{revtex4-1}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{comment}
+\usepackage{hyperref}
+\usepackage{braket}
+\usepackage{xcolor}
+%\usepackage{CJK}
+\usepackage{float}
+\usepackage{enumitem}
+
+\graphicspath{{./figures/}}
+
+\newcommand{\bs}{\boldsymbol}
+\newcommand{\up}{\uparrow}
+\newcommand{\down}{\downarrow}
+
+\newcommand{\ssec}[1]{\emph{#1} ---}
+
+\definecolor{gold}{rgb}{0.83, 0.69, 0.22}
+\newcommand{\paul}[1]{\textcolor{gold}{\textbf{YY: #1}}}
+
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+
+\begin{document}
+%\begin{CJK*}{UTF8}{}
+\title{Effect of gate screening in transition metal dichalcogenide heterobilayer}
+\author{Wisdom Boinde}
+\affiliation{Center for Computational Quantum Physics, Flatiron Institute, New York, NY, 10010, USA}
+\author{Yubo Yang}
+\affiliation{Center for Computational Quantum Physics, Flatiron Institute, New York, NY, 10010, USA}
+\author{Miguel Morales}
+\affiliation{Center for Computational Quantum Physics, Flatiron Institute, New York, NY, 10010, USA}
+\date{\today}
+\begin{abstract}
+Metallic gates in transition metal dichalcogenide heterobilayer devices screen the long-range Coulumb interaction between charge carriers.
+How does this change the phases/properties of the electronic states?
+\end{abstract}
+\pacs{}
+\maketitle
+%\end{CJK*}
+
+\ssec{Introduction}
+% background and motivation
+TMDC bilayers are cool~\cite{Mak2022}.
+
+\ssec{Model}
+% effective model for charge carriers
+The moir\'e continuum hamiltonian (MCH)
+
+\ssec{Methods}
+Density functional theory (DFT)
+
+\ssec{Summer Milestones (draft 05/30)}
+\begin{itemize}
+\item Learning targets for June 14
+\begin{todolist}
+\item Describe TMDC continuum model: the MCH
+\item Compute band structure using Quantum Espresso (QE)
+\item Compute charge density using QE
+\item Solve the MCH (at one condition) using QE
+\item Compute spin density using QE
+\end{todolist}
+\item Compute targets for June 28
+\begin{todolist}
+\item Map out MCH phase diagram (no screening)
+\item Study charge density, spin density, and momentum distribution
+\item Poster outline (intro, method, expected results)
+\end{todolist}
+\item Research targets for July 12
+\begin{todolist}
+\item Implement screening in QE
+\item Investigate effect of screening
+\end{todolist}
+\item Production targets for July 26
+\begin{todolist}
+\item Map out MCH phase diagram with screening
+\end{todolist}
+\item Deliverable targets for Aug 9
+\begin{todolist}
+\item Poster results and discussion
+\item Polish and summarize for paper draft
+\end{todolist}
+\end{itemize}
+
+%\ssec{Results and Discussions}
+%\ssec{Conclusion and Outlook}
+\ssec{Acknowledgment}
+We thank the Flatiron Institute Scientific Computing Center for computational resources and technical support. The Flatiron Institute is a division of the Simons Foundation.
+
+\bibliographystyle{apsrev4-1}
+\bibliography{ref}
+
+\end{document}

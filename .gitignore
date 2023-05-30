@@ -1,3 +1,22 @@
+# LaTeX
+main.aux
+main.bbl
+main.blg
+main.out
+main.synctex.gz
+mainNotes.bib
+comp-supp.pdf
+comp-supp.aux
+comp-supp.bbl
+comp-supp.blg
+comp-supp.out
+comp-supp.synctex.gz
+comp-suppNotes.bib
+comp-supp.pdf
+supp.aux
+*.pdf
+*.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
